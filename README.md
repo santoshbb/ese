@@ -1,1 +1,7 @@
-# bio_sync
+## Bio Sync
+
+Attendance Synchronization
+
+#### License
+
+MIT
