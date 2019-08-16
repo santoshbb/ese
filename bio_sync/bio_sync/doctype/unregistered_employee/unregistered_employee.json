@@ -1,0 +1,104 @@
+{
+ "autoname": "field:employee",
+ "creation": "2019-08-16 12:34:22.243745",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "service_tag_id",
+  "column_break_3",
+  "attendance_date",
+  "section_break_5",
+  "in_time",
+  "column_break_7",
+  "out_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Data",
+   "label": "Employee",
+   "unique": 1
+  },
+  {
+   "fieldname": "service_tag_id",
+   "fieldtype": "Data",
+   "label": "Service Tag ID"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attendance_date",
+   "fieldtype": "Data",
+   "label": "Attendance Date"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "in_time",
+   "fieldtype": "Data",
+   "label": "In Time"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "out_time",
+   "fieldtype": "Data",
+   "label": "Out Time"
+  }
+ ],
+ "icon": "fa fa-book",
+ "modified": "2019-08-16 18:23:31.746251",
+ "modified_by": "Administrator",
+ "module": "Bio Sync",
+ "name": "Unregistered Employee",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR User",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "employee",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1
+}
